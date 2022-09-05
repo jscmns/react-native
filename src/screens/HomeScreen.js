@@ -10,6 +10,9 @@ const HomeScreen = ({ navigation }) => {
 			<Button onPress={() => navigation.navigate("List")} title="List" />
 			<Button onPress={() => navigation.navigate("Images")} title="Images" />
 			<Button onPress={() => navigation.navigate("Counter")} title="Counter" />
+			<Button onPress={() => navigation.navigate("Colors")} title="Color box creator" />
+			<Button onPress={() => navigation.navigate("ColorPicker")} title="Color picker" />
+			<Button onPress={() => navigation.navigate("TextInput")} title="Text input" />
 		</View>
 	);
 };
